@@ -1,0 +1,38 @@
+body {
+    background-color: #9b6ce7;
+    color: #fefcfc;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 100;
+
+    button {
+        background-color: #e59d67;
+        color: white;
+        font-family: "Oswald", sans-serif;
+    }
+
+    .passo {
+        display: none;
+    }
+    .passo.ativo {
+        display: block;
+    }
+
+    main {
+        text-align: center;
+        max-width: 200%;
+    }
+
+    img {
+        max-width: 90%;
+    
+    }
+
+    div {
+        display: block;
+        unicode-bidi: isolate;
+    }
+}

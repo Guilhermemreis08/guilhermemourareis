@@ -1,63 +1,85 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-    
-        <link rel="stylesheet" href="styles.css"></head>
-    
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <title>Mapa das Estações - Linha 5 Lilás</title>
 </head>
 
 <body>
-    <header>Guimr</header>
+    <main>
 
-    <section class="chamada">
+        <div class="passo ativo" id="passo-0">
+            <img src="Mapa-Estações.jpg" />
+            <p>Estações</p>
+            <button class="btn-proximo" data-proximo="1">Capão Redondo</button>
+            <button class="btn-proximo" data-proximo="2">Campo Limpo</button>
+            <button class="btn-proximo" data-proximo="3">Vila das Belezas</button>
+            <button class="btn-proximo" data-proximo="4">Giovanni Gronchi</button>
+            <button class="btn-proximo" data-proximo="5">Santo Amaro</button>
+            <button class="btn-proximo" data-proximo="6">Largo Treza</button>
 
-        <div class="chamada-texto">
-            <h1>História do Corinthians - Timão completa 113 anos</h1>
-            <p>#História do Corinthians</p>
 
         </div>
 
         <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fyar0sjnK6M?si=iMKIhEFQBC6tFLf4"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <div class="passo" id="passo-1">
+                <p> Estação elevada, com hall de distribuição no nível térreo, estrutura em concreto aparente,
+                    plataformas laterais em estrutura mista de concreto e metálica, com cobertura de estrutura metálica
+                    oval e telhas de alumínio tipo sanduíche. Pontos de interesse "Parque Santo Dias.</p>
+                    <img src="Parque Santo dia.jpg" />
+                <button class="btn-proximo" data-proximo="0">Capão Redondo</button>
+            
+            </div>
 
-        </div>
-    </section>
+            <div class="passo" id="passo-2">
+                <p>Estação elevada, em curva, com hall de distribuição no nível térreo, estrutura em concreto aparente,
+                    plataformas laterais em estrutura mista de concreto e metálica, com cobertura de estrutura metálica
+                    oval e telhas de alumínio tipo sanduíche.
+                    Acesso adaptado para pessoas com deficiência e mobilidade reduzida e integração com Terminal de
+                    Ônibus Urbano.
+                    Pontos de interesse: Sesc Campo Limpo, Prefeitura Regional do Campo Limpo</p>
+                <button class="btn-proximo" data-proximo="0">Campo Limpo</button>
+            </div>
 
-    <section class="categoria">
+            <div class="passo" id="passo-3">
+                <p>Estação elevada, em curva, com hall de distribuição no nível térreo, estrutura em concreto aparente,
+                    plataformas laterais em estrutura mista de concreto e metálica, com cobertura de estrutura metálica
+                    oval e telhas de aço tipo sanduíche.
+                    Pontos de Interesse: Ubs Parque arariba, Ubs Vila das Belezas.</p>
+                <button class="btn-proximo" data-proximo="0">Vila das Belezas</button>
+            </div>
 
-        <h2>Videos - TV Timão</h2>
+            <div class="passo" id="passo-4">
+                <p>Estação elevada, em curva, com mezanino de distribuição no nível da passarela do Terminal João Dias, plataformas laterais em estrutura mista de concreto e metálica, com cobertura de estrutura metálica oval e telhas de alumínio tipo sanduíche.
+                    Acesso adaptado para pessoas com deficiência e mobilidade reduzida e integração com Terminal de Ônibus Urbano.
+                Ponto de Interesse: Acesso ao Terminal João Dias.</p>
+                <button class="btn-proximo" data-proximo="0">Giovanni Gronchi</button>
+            </div>
 
-        <div class="categoria-videos">
-            <a href="https://www.youtube.com/watch?v=UK-8G7FhRaI">
-                <img src="https://img.youtube.com/vi/UK-8G7FhRaI/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=iIt-muNslh8">
-                <img src="https://img.youtube.com/vi/iIt-muNslh8/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=WnnvbCM_sDI">
-                <img src="https://img.youtube.com/vi/WnnvbCM_sDI/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=ou_ZAFQcvX8">
-                <img src="https://img.youtube.com/vi/ou_ZAFQcvX8/maxresdefault.jpg" />
-            </a>
-            <a href="https://www.youtube.com/watch?v=XtND7XHw7sM">
-                <img src="https://img.youtube.com/vi/XtND7XHw7sM/maxresdefault.jpg" />
-            </a>
+            <div class="passo" id="passo-5">
+                <p>Estação com um hall de distribuição em nível térreo (Terminal de Ônibus Guido Caloi) e um hall de distribuição do lado oposto, nível mezanino, ligado à Estação Santo Amaro da Linha 9-Esmeralda da CPTM; plataformas laterais em estrutura elevada com cobertura metálica oval e telhas duplas térmicas de alumínio, constituindo a Ponte Estaiada.
+                   Acesso adaptado para pessoas com deficiência e mobilidade reduzida, a partir do Terminal Guido Caloi.  
+                   Ponto de Interesse: Terminal de ônibus Guido Caloi e Interligação linha 9-Esmeralda CPTM</p>
+                <button class="btn-proximo" data-proximo="0">Santo Amaro</button>
+            </div>
 
-        </div>
+            <div class="passo" id="passo-6">
+                <p>Estação com 2 mezaninos de distribuição em subsolo e plataformas laterais um nível abaixo dos mezaninos, toda em estrutura de concreto aparente.
+                   Acesso adaptado para pessoas com deficiência e mobilidade reduzida (lado do Terminal) e integração com Terminal de Ônibus Urbano.
+                   Pontos de interesse: Sesc Santo Amaro, Mercado de Santo Amaro, Poupatempo</p>
+                <button class="btn-proximo" data-proximo="0">Largo Trezes</button>
+            </div>
 
-    </section>
-
+    </main>
+    <script src="script.js"></script>
 </body>
-
-
-
 </html>
